@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+  <title>Rag Day (HSC 2024)</title>
+</head>
+<body>
+  <div class="box">
+    <form action="https://formspree.io/f/xrgndavl" method="POST" accept-charset="utf-8">
+    <div class="center">
+      <h1>Shafipur Ideal Public College
+      </h1>
+      <h2>
+        Rag Day (HSC 2024)
+      </h2>
+      <h3>
+        Information Form
+      </h3>
+    </div>
+    <hr>
+    <div>
+      <label for="name">
+       Name: 
+        <input type="text" id="name" name="name" placeholder="Enter your name" required/>
+      </label>
+      <label for="roll">
+        Roll: <input type="text" id="roll" name="roll" placeholder="Enter your roll number" required/>
+      </label>
+    </div>
+    <div>
+      <label for="select">
+       Section :
+      </label>
+      <select name="select" id="select" required>
+        <option value="Select" hidden>Select</option>
+        <option value="Science-A">Science-A</option>
+        <option value="Science-B">Science-B</option>
+        <option value="Science-C">Science-C</option>
+        <option value="Business Studis">Business Studies</option>
+        <option value="Humanities">Humanities</option>
+      </select>
+    </div>
+
+    <div>
+      <label for="gender">Gender : </label>
+      <input type="radio" name="gender" id="male" required class="gender" value="Male"><label for="male" class="gender">Male</label>
+      <input type="radio" name="gender" id="female" required class="gender" value="Female"><label for="female" class="gender">Female</label>
+    </div>
+
+    <div>
+      <label for="select-t">
+       T-shirt Size :
+      </label>
+      <select name="select-t" id="select-t" required>
+        <option value="Select" hidden>Select</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+      </select>
+    </div>
+  
+    <div>
+      <label for="select-p">
+       Polo-shirt Size :
+      </label>
+      <select name="select-p" id="select-p">
+        <option value="Select" hidden required>Select</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+      </select>
+    </div>
+  
+    <div>
+      <label for="number">Phone number: </label>
+      <input type="text" name="number" id="number" placeholder="Enter your number" required>
+    </div>
+  
+    <div class="center">
+      <button type="reset" class="btn btn-primary">
+        Reset
+      </button>
+      <button type="submit" class="btn btn-primary">
+        Submit
+      </button>
+    </div>
+    </form>
+  </div>
+
+</body>
+</html>
